@@ -1,15 +1,8 @@
 def begins_with_r(array)
      array.each |word|
-     do word[0] ==
-      do |word| word.initial == "r"
-    end 
-def begins_with_r(array)
-  flag = true
-  array.each do |element|
-    flag = false if element[0] != "r"
-  end
-  flag
-end
+     do word[0] == "r"
+   end 
+end 
 
 def contain_a do
     # Question 2
